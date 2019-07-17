@@ -1,0 +1,31 @@
+body {
+    width: 1000px;
+}
+
+header {
+    width: 1000px;
+    background: #ffcccc;
+}
+
+#wrapper #menu {
+    background: #ccccff;
+    width: 300px;
+    float: right;
+}
+
+#wrapper #main {
+    background: #ccffcc;
+    width: 700px;
+    float: left;
+}
+
+footer {
+    width: 1000px;
+    background: #ffccff;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
